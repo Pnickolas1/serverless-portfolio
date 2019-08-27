@@ -1,9 +1,8 @@
 version: 0.2
 
+phases:
   commands:
     - echo Building...
-
-phases:
 
   install:
     runtime-versions:
