@@ -1,6 +1,11 @@
 version: 0.1
 
 phases:
+
+  install:
+    runtime-versions:
+      nodejs: 10
+
   build:
     commands:
       - echo nothing to do yet
